@@ -1,0 +1,30 @@
+
+.messenger{
+    height: 1024px;
+}
+.menu{
+    padding: 40px 50px 50px 50px;
+}
+.user{
+    padding: 40px 50px 25px 30px;
+    width: 589px;
+}
+.chats{
+    padding: 40px 45px;
+}
+.chats{
+    width: 472px;
+}
+.logout{
+    border-radius: 100px;
+    background-color: var(--BgColorChat);
+    padding: 13px;
+}
+.chat-input{
+    /* width: 372px; */
+    height: 53px;
+    padding: 16px;
+}
+.users{
+    height: 800px;
+}

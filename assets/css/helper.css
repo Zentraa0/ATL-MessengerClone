@@ -1,0 +1,193 @@
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.end{
+    justify-content: end;
+}
+.between{
+    justify-content: space-between;
+}
+.column{
+    flex-direction: column;
+}
+.grow{
+    flex-grow: 1;
+}
+.a-center{
+    align-items: center;
+}
+.t-center{
+    text-align: center;
+}
+.j-center{
+    justify-content: center;
+}
+.pos-rel{
+    position: relative;
+}
+.pos-fix{
+    position: fixed;
+    top: 0;
+}
+.pos-st{
+    position: sticky;
+}
+.contain{
+    object-fit: contain;
+}
+.hidden{
+    overflow: hidden;
+}
+.scroll{
+    overflow: hidden;
+}
+.scroll:hover{
+    overflow: scroll;
+}
+
+.width{
+    width: 100%;
+}
+.shadow{
+    box-shadow: 0px 0px 15px 0px #00000040;
+
+}
+
+/* IMAGES */
+
+.menu-img img{
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}
+.menu-head img{
+    width: 70px;
+    height: 70px;
+}
+.chat-img img{
+    width: 27px;
+    height: 27px;
+}
+.user-img img{
+    width: 75px;
+    height: 75px;
+}
+.head-img img{
+    width: 50px;
+    height: 50px;
+}
+.message-img img{
+    width: 46px;
+    height: 46px;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
+/* COLORS */
+.bg-fff{
+    background-color: #fff;
+}
+.clr-black{
+    color: #000;
+}
+.body-clr{
+    background-color: var(--BgColorBody);
+}
+.bg-chat{
+    background-color: var(--BgColorChat);
+}
+.clr-menu-text{
+    color: var(--ColorMenuText);
+}
+.clr-chat-text{
+    color: var(--ColorChatTex);
+}
+.clr-active-link{
+    color: var(--ColorActiveLink);
+}
+.bg-active-user{
+    background-color: var(--ColorActiveLink);
+    color: #fff;
+}
+.bg-input{
+    background-color: var(--BgColorInput);
+}
+
+.opa-45{
+    opacity: 45%;
+}
+
+
+.rad-30{
+    border-radius: 30px;
+}
+.rad-100{
+    border-radius: 100px;
+}
+
+
+.f-11{
+    font-size: 11px;
+}
+.f-16{
+    font-size: 16px;
+}
+.f-32{
+    font-size: 32px;
+}
+
+
+.lnh-15{
+    line-height: 15px;
+}
+.lnh-22{
+    line-height: 22px;
+}
+.lnh-44{
+    line-height: 44px;
+}
+
+.fw-700{
+    font-weight: 700;
+}
+
+
+
+.mr-12{
+    margin-right: 12px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mr-30{
+    margin-right: 30px;
+}
+.mr-43{
+    margin-right: 43px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-28{
+    margin-bottom: 28px;
+}
+.mb-33{
+    margin-bottom: 33px;
+}
+.mb-49{
+    margin-bottom: 49px;
+}
+.mb-65{
+    margin-bottom: 65px;
+}
